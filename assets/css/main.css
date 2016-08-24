@@ -81,10 +81,10 @@
 	html {
 		height: 100%;
 	}
-
+	/* #E0E1E0   */
 	body {
 		height: 100%;
-		background-color: #4696e5;
+		background-color: #E0E1E0;
 		background-image: url("images/overlay.png");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-position: top left, center center;
@@ -102,7 +102,7 @@
 			height: inherit;
 			opacity: 0;
 			z-index: 1;
-			background-color: #4696e5;
+			background-color: #E0E1E0;
 			background-image: url("images/overlay.png");
 			background-position: top left, center center;
 			background-attachment: fixed, fixed;
@@ -160,10 +160,6 @@
 			-webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
 			-ms-transition: color 0.2s ease, text-shadow 0.2s ease;
 			transition: color 0.2s ease, text-shadow 0.2s ease;
-		}
-
-		a:hover {
-			color: #ff7496;
 		}
 
 	strong, b {
@@ -535,12 +531,9 @@
 					}
 
 					ul.icons li a:before {
-						color: #ffffff;
-						text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
 					}
 
 					ul.icons li a:before {
@@ -553,10 +546,6 @@
 						line-height: inherit;
 						text-align: center;
 						text-indent: 0;
-					}
-
-					ul.icons li a:hover {
-						border-color: #ff7496;
 					}
 
 			@media screen and (max-width: 480px) {
